@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    display: grid;
+    place-items: center;
+  
+  } 
+  div{
+    display: grid;
+    place-items: center;
+  } 
+  span{
+    color: white;
+    font-size: 50px;
+  
+  }
+  main{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 50vh;
+    color: #333;
+    display: grid;
+    place-items: center;
+    border-radius: 10px 10px 10px 10px;
+  
+  
+  }
+  
+  p{
+    font-size: 100px;
+    justify-content: baseline;
+  }
+  .btn--click{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  
+  @media (max-width:600px) {
+    body{
+      background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    }
+    span{
+      color: white;
+      font-size: 30px;
+    }
+    p{
+      font-size:80px;
+      justify-content: baseline;
+      margin: 20px;
+    }
+    .btn--new{
+      background-color: black;
+      font-size: 10px;
+      color: white;
+      
+    }
+    .btn--click{
+      color: black;
+      background-color: white;
+    }
+
+    
+  }
