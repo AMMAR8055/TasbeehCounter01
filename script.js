@@ -3,7 +3,7 @@ const resetbutton = document.getElementsByClassName('btn--new');
 const clickbutton = document.querySelector('.btn--click');
 let count=0;
 function addcount(){
-    document.querySelector('#count--0').textContent=++count;
+    document.querySelector('#count--0').textContent= ++count;
 }
 
 function resetcount(){ 
